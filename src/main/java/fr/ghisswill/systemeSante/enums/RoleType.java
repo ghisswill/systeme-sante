@@ -1,6 +1,6 @@
 package fr.ghisswill.systemeSante.enums;
 
-public enum UserType {
+public enum RoleType {
     DOCTOR,
     SECRETARY
 }

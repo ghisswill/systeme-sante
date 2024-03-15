@@ -1,6 +1,6 @@
 package fr.ghisswill.systemeSante.model;
 
-import fr.ghisswill.systemeSante.enums.UserType;
+import fr.ghisswill.systemeSante.enums.RoleType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -25,7 +25,7 @@ public class User {
     private String email;
     private String password;
     @Enumerated(EnumType.STRING)
-    private UserType role;
+    private RoleType role;
     private String  username;
     private String phone;
 
